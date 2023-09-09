@@ -31,7 +31,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    
+}
+@media screen and (min-width: 768px) {
+    .header-banner {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 .initial-header {
     margin: 20px;
@@ -41,6 +47,9 @@
     align-items: center;
     margin: 20px;
     font-size: 18px;
+}
+.introduction-p h2 {
+    color: #79828C;
 }
 
 @media screen and (min-width: 768px) {
@@ -73,14 +82,15 @@ header nav ul li {
     margin: 0 10px; /* Add some space between the items */
 }
 header nav ul li a {
-    color: black;
+    color: #79828C;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .recipes-h2{
     margin-left: 40px;
     margin: 20px;
+    color: #79828C;
 }
 @media screen and (min-width: 768px) {
     .recipes-h2 {
