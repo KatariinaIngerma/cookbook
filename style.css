@@ -46,7 +46,7 @@
 
 @media screen and (min-width: 768px) {
     .introduction-p {
-        margin: 40px;
+        margin: 50px;
     }
 }
 .desktop-only {
@@ -161,11 +161,12 @@ footer {
 .footer-sm {
     width: 32px;
     float: right;
-}
     
+}
 .footer-sm img {  
     width: 100%;
-    margin-bottom: 10px;
+    vertical-align: middle;
+    margin-bottom: 20px;
 }
 .contact-links {
     font-family: "Open Sans", sans-serif;
@@ -174,4 +175,9 @@ footer {
     letter-spacing: 2px;
     color: #000000;
     text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+    .contact-links {
+        margin-left: 40px;
+    }
 }
