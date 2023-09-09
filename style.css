@@ -33,15 +33,7 @@
     background-size: cover;
     
 }
-@media screen and (min-width: 768px) {
-    .header-banner {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-.initial-header {
-    margin: 20px;
-}
+
 .introduction {
     display: flex;
     align-items: center;
@@ -54,7 +46,7 @@
 
 @media screen and (min-width: 768px) {
     .introduction-p {
-        margin: 20px;
+        margin: 40px;
     }
 }
 .desktop-only {
@@ -63,7 +55,7 @@
 @media screen and (min-width: 768px) {
     .desktop-only {
         display: block; 
-        margin: 30px;
+        margin: 40px;
     }
 }
 header nav ul {
@@ -74,7 +66,8 @@ header nav ul {
 }
 @media screen and (min-width: 768px) {
     header nav ul {
-        justify-content: space-around; 
+        justify-content: space-evenly; 
+        margin-top: 30px;
     }
 }
 header nav ul li {
