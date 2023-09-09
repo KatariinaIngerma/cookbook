@@ -10,6 +10,7 @@
 .logo h2 {
     font-family: "Open Sans", sans-serif;
     text-align: center;
+    font-weight: 300;
 }
 .header-banner {
     background-image:  url("https://ychef.files.bbci.co.uk/1600x900/p09xq72k.jpg");
