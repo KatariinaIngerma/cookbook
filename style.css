@@ -155,19 +155,22 @@ footer {
     padding: 40px 40px;
     background-color: #79828C;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
     
 }
 
 .footer-sm {
     width: 32px;
-    float: right;
+    align-items: center;
     
 }
-.footer-sm img {  
+.footer-sm img { 
     width: 100%;
-    vertical-align: middle;
-    margin-bottom: 20px;
+    margin: 12px 0;
+    
 }
+
 .contact-links {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
