@@ -2,17 +2,26 @@
     text-align: center;
 }
 .logo h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: #79828C;
     text-align: center;
-    margin: 0;
-    
+    margin: 0; 
+}
+@media screen and (min-width: 768px) {
+    .logo h1 {
+        font-size: 60px; /* Increase font size for desktop */
+    }
 } 
 .logo h2 {
     font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 15px;
     font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+    .logo h2 {
+        font-size: 22px; /* Increase font size for desktop */
+    }
 }
 .header-banner {
     background-image:  url("https://ychef.files.bbci.co.uk/1600x900/p09xq72k.jpg");
@@ -32,23 +41,32 @@
     margin: 20px;
     font-size: 18px;
 }
-.introduction-p {
-    margin: 20px;
+
+@media screen and (min-width: 768px) {
+    .introduction-p {
+        margin: 20px;
+    }
 }
 .desktop-only {
     display: none;
 }
 @media screen and (min-width: 768px) {
     .desktop-only {
-        display: block; /* Display the image for larger screens */
+        display: block; 
+        margin: 30px;
     }
 }
 header nav ul {
     display: block;
-    margin: 15px auto;
-    text-align: justify; 
-    width: fit-content;
-    justify-content: space-between;
+    margin: 15px auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+@media screen and (min-width: 768px) {
+    header nav ul {
+        justify-content: space-around; 
+    }
 }
 header nav ul li {
     display: inline-block; /* Display list items side by side */
@@ -62,6 +80,11 @@ header nav ul li a {
 .recipes-h2{
     margin-left: 40px;
     margin: 20px;
+}
+@media screen and (min-width: 768px) {
+    .recipes-h2 {
+        display: none;
+    }
 }
 .container img {
     object-fit: cover;
@@ -95,6 +118,11 @@ header nav ul li a {
     justify-content: center;
     -o-flex-flow: row wrap;
     justify-content: center;
+}
+@media screen and (min-width: 768px) {
+    .gallery-links {
+        justify-content: space-around;
+    }
 }
 .post-header {       
     /*kujundus*/
