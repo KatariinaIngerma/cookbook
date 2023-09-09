@@ -20,8 +20,17 @@
     background-size: cover;
 
 }
+.initial-header {
+    margin: 20px;
+}
 .introduction {
     display: flex;
+    align-items: center;
+    margin: 20px;
+    font-size: 18px;
+}
+.introduction-p {
+    margin: 20px;
 }
 .desktop-only {
     display: none;
@@ -44,6 +53,11 @@ header nav ul li {
 header nav ul li a {
     color: black;
     text-decoration: none;
+}
+
+.recipes-h2{
+    margin-left: 40px;
+    margin: 20px;
 }
 .container img {
     object-fit: cover;
