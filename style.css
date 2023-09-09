@@ -5,11 +5,13 @@
     font-size: 60px;
     color: #79828C;
     text-align: center;
+    margin: 0;
     
 } 
 .logo h2 {
     font-family: "Open Sans", sans-serif;
     text-align: center;
+    font-size: 15px;
     font-weight: 300;
 }
 .header-banner {
@@ -43,9 +45,10 @@
 }
 header nav ul {
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;
     text-align: justify; 
     width: fit-content;
+    justify-content: space-between;
 }
 header nav ul li {
     display: inline-block; /* Display list items side by side */
